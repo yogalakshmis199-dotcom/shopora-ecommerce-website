@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Page</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f5f5f5;
+}
+
+.container{
+width:500px;
+margin:auto;
+margin-top:50px;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 10px gray;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+}
+
+button{
+background:#ffd814;
+border:none;
+padding:12px 25px;
+border-radius:20px;
+cursor:pointer;
+font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Delivery Details</h1>
+
+<input type="text" placeholder="Full Name">
+
+<input type="text" placeholder="Mobile Number">
+
+<textarea rows="4" placeholder="Enter Address"></textarea>
+
+<h2>Payment Method</h2>
+
+<input type="radio" name="pay"> Cash On Delivery
+<br><br>
+
+<input type="radio" name="pay"> UPI
+<br><br>
+
+<input type="radio" name="pay"> Net Banking
+<br><br>
+
+<input type="radio" name="pay"> Debit / Credit Card
+
+<br><br>
+
+<a href="success.html">
+<button>Place Order</button>
+</a>
+
+</div>
+
+</body>
+</html>
